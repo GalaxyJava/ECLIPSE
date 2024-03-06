@@ -1,0 +1,15 @@
+
+ArrayList<Sesion> list = new ArrayList<Sesion>();
+
+Sesion s1 = new Sesion("Escapa como puedas");
+Sesion s2= new Sesion("Sin salida");
+
+list.add(s1);
+list.add(s2);
+
+Cliente cl1 = new Cliente();
+cl1.setNombre("Laura");
+s1.setCliente(cl1);
+
+list.remove(s1);
+list
